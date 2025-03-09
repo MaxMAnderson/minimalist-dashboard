@@ -59,11 +59,11 @@ views:
               - type: 'custom:button-card'
                 template: custom_card_person_chip
                 variables:
-                  ulm_custom_card_person_chip_entity: person.christoph
+                  ulm_custom_card_person_chip_entity: person.max_anderson
               - type: 'custom:button-card'
                 template: custom_card_person_chip
                 variables:
-                  ulm_custom_card_person_chip_entity: person.franziska
+                  ulm_custom_card_person_chip_entity: person.max_anderson
               - type: "custom:button-card"
                 color_type: blank-card
           - type: "custom:button-card"
@@ -181,7 +181,7 @@ views:
           grid-area: weather
         show_current: true
         show_forecast: true
-        entity: weather.openweathermap
+        entity: weather.forecast_home
 
       ################
       #   Calendar   #
